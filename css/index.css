@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #50394c;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading .logo-hf {
+  width: 350px;
+  padding: 50px 20px 10px 20px;
+}
+.heading .logo-hf img {
+  width: 100%;
+}
+
+.quote {
+  text-align: center;
+  padding: 20px;
+  color: #ffef96;
+  font-family: 'Caveat', cursive;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.container-inner {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 20px;
+}
+
+.participant {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: #bc5a45;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #93C2DB;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08), 0 6px 6px rgba(0,0,0,0.17);
+}
+.participant:last-child {
+  margin-bottom: 0;
+}
+.participant__image {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80px;
+  height: 100%;
+}
+.participant__image img {
+  object-fit: cover;
+  width: 80px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.participant__right {
+  padding-left: 15px;
+}
+.participant__name {
+  color: #ffef96;
+  font-weight:;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.participant__college {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+.participant__socials a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.participant__socials img {
+  width: 20px;
+  color: white;
+  fill: currentColor;
+}
+
+/* ICONS */
+#iconPR {
+  width: 80px;
+  opacity: 0.15;
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  transform: rotateZ(-15deg);
+}
+
+#iconBranch {
+  width: 70px;
+  opacity: 0.15;
+  position: absolute;
+  top: 100px;
+  right: -150px;
+  transform: rotateZ(15deg);
+}
+
+#iconCommit {
+  width: 60px;
+  opacity: 0.15;
+  position: absolute;
+  top: 340px;
+  left: -170px;
+  transform: rotateZ(-15deg);
+}
+
+footer {
+  padding: 20px 30px 40px;
+}
+
+.logo-alphabyte {
+  text-align: center;
+}
+.logo-alphabyte img {
+  opacity: 0.1;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.icon {
+  user-select: none;
+  transition: 0.8s ease;
+}
+
+@media (max-width: 400px) {
+  .heading .logo {
+    width: 100%;
+    padding: 50px 20px 10px 20px;
+  }
+  .logo-alphabyte img {
+    width: 90%;
+  }
+}
