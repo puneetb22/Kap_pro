@@ -19,17 +19,17 @@ This will create a copy of this repo under your GitHub account.
 
 **Clone** your forked copy of this repo down to your local machine:
 ```bash
-git clone https://github.com/<INSERT-YOUR-USERNAME>/Hacktoberfest-2020.git
+git clone https://github.com/<INSERT-YOUR-USERNAME>/Kap_pro.git
 
 # Example
-git clone https://github.com/puneetb22/kap_pro.git
+git clone https://github.com/puneetb22/Kap_pro.git
 ```
 
 ### STEP 3
 
 **Change directory** command to get inside the folder where the repo files are:
 ```bash
-cd kap_pro
+cd Kap_pro
 ```
 
 ### STEP 4
@@ -41,7 +41,7 @@ git checkout -b addname/<INSERT-YOUR-USERNAME>
 # Example
 git checkout -b addname/puneetb22
 ```
-> In the example, `addname/Puneetb22` is the name of the new branch.
+> In the example, `addname/puneetb22` is the name of the new branch.
 
 > This command creates a new branch and switches to that new branch
 
