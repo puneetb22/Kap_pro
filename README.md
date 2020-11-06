@@ -1,6 +1,6 @@
 # KAP
 
-A repo to help you getting started with KAP by adding your details.
+A repo to help you getting started with KAP by adding your details to the About us page.
 
 ![Screenshot](https://i.ibb.co/Z1Zt33f/Capture.jpg)
 
