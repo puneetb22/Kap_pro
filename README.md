@@ -1,6 +1,6 @@
 # KAP
 
-A repo to help you getting started with Hacktoberfest 2020 by adding your details.
+A repo to help you getting started with KAP by adding your details.
 
 ![Screenshot](https://i.ibb.co/Z1Zt33f/Capture.jpg)
 
