@@ -117,6 +117,6 @@ Now click the `Create pull request` button.
 ### STEP 9
 
 Thats it! Your part is done!  
-Now wait for the maintainer of the repo to mark the PR as `hacktoberfest-accepted`.
+Now wait for the maintainer of the repo to mark the PR as `accepted`.
 
 **Congrats on your first PR!**
