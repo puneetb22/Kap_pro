@@ -20,6 +20,7 @@
   
 </head>
 <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
   <header>
     <div class="heading">
       <div class="logo-hf">
@@ -41,16 +42,63 @@
         <img id="iconBranch" class="icon" src="img/images/df.png" alt="Branch icon">
         <img id="iconCommit" class="icon" src="img/images/df.png" alt="Commit icon">
       </div>
+	  </div>
+	  
+	  
+	   <div class="container">
+      <div class="container-next">
+	  
+	  <div class="quote">
+      "Project's"
     </div>
-  </main>
+	 
+	   <div id="projects">
+          <!-- project data -->
+        </div>
+        
+        <img id="iconBranch" class="icon" src="img/images/df.png" alt="Branch icon">
+        <img id="iconCommit" class="icon" src="img/images/df.png" alt="Commit icon">
+	  </div>
+	   </div>
+     </main>
+
+
   <footer>
     <div class="logo-alphabyte">
-      <img src="img/df.png" alt="logo">
+      <img src="img/wow.png" alt="logo">
     </div>
   </footer>
 
   <!-- SCRIPTS -->
   <script src="js/participants.js"></script>
+   <script src="js/projects.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/pro.js"></script>
+  
+  
+  <!-------------------------------------Page up Button--------------------------------------------------------->
+  <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+  
 </body>
 </html>
