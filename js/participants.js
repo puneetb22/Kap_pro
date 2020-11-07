@@ -7,6 +7,15 @@ const participants = [
     linkedin: "https://www.linkedin.com/in/puneetb22/",
     website: "https://punitbaviskar.me",
   }, 
+    
+     {
+    name: "Atharv Kaveeshwar",
+    college: "Amity University Mumbai",
+    city: "Indore",
+    github: "kaveeshwarji",
+    linkedin: "https://www.linkedin.com/in/atharv-kaveeshwar/",
+    website: "",
+  },
   
   {
     name: "Krati Rastogi",
