@@ -15,5 +15,5 @@ const participants = [
     github: "kaveeshwarji",
     linkedin: "https://www.linkedin.com/in/atharv-kaveeshwar/",
     website: "",
-  }
+  },
 ];
