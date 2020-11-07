@@ -1,19 +1,12 @@
 const participants = [
 
   {
-    name: "Punit Baviskar",
+    name: "Krati Rastogi",
     college: "Amity University Mumbai",
-    city: "Pune",
-    github: "puneetb22",
-    linkedin: "https://www.linkedin.com/in/puneetb22/",
-    website: "https://punitbaviskar.netlify.app/",
+    city: "PAhmedabad",
+    github: "Krati67",
+    linkedin: "https://www.linkedin.com/in/krati-rastogi-836983181/",
+  
   },
-  {
-    name: "Atharv Kaveeshwar",
-    college: "Amity University Mumbai",
-    city: "Indore",
-    github: "kaveeshwarji",
-    linkedin: "https://www.linkedin.com/in/atharv-kaveeshwar/",
-    website: "",
-  },
+ 
 ];
